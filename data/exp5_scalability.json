@@ -1,0 +1,24 @@
+{
+  "ieee33": {
+    "n_buses": 33,
+    "n_lines": 37,
+    "n_ties": 5,
+    "per_powerflow_call_ms": 29.36837590000323,
+    "centralized_n_combinations": 32,
+    "centralized_time_s": 0.9397880288001034,
+    "decentralized_n_candidates": 3,
+    "decentralized_time_s": 0.0881051277000097,
+    "speedup": 10.666666666666666
+  },
+  "oberrhein": {
+    "n_buses": 179,
+    "n_lines": 181,
+    "n_ties": 6,
+    "per_powerflow_call_ms": 41.38151715001186,
+    "centralized_n_combinations": 64,
+    "centralized_time_s": 2.648417097600759,
+    "decentralized_n_candidates": 3,
+    "decentralized_time_s": 0.12414455145003557,
+    "speedup": 21.333333333333332
+  }
+}

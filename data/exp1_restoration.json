@@ -1,0 +1,333 @@
+{
+  "total_load_mw": 3.7150000000000003,
+  "n_faults": 32,
+  "results": [
+    {
+      "faulted_line": 0,
+      "n_deenergized_buses": 32,
+      "centralized_restored_mw": 0.0,
+      "centralized_tries": 32,
+      "decentralized_restored_mw": 0.0,
+      "decentralized_tries": 21,
+      "decentralized_messages": 10,
+      "decentralized_rounds": 2
+    },
+    {
+      "faulted_line": 1,
+      "n_deenergized_buses": 27,
+      "centralized_restored_mw": 0.45999999999999996,
+      "centralized_tries": 32,
+      "decentralized_restored_mw": 0.45999999999999996,
+      "decentralized_tries": 21,
+      "decentralized_messages": 10,
+      "decentralized_rounds": 2
+    },
+    {
+      "faulted_line": 2,
+      "n_deenergized_buses": 23,
+      "centralized_restored_mw": 1.4799999999999998,
+      "centralized_tries": 32,
+      "decentralized_restored_mw": 1.4799999999999998,
+      "decentralized_tries": 21,
+      "decentralized_messages": 9,
+      "decentralized_rounds": 2
+    },
+    {
+      "faulted_line": 3,
+      "n_deenergized_buses": 22,
+      "centralized_restored_mw": 1.5999999999999999,
+      "centralized_tries": 32,
+      "decentralized_restored_mw": 1.5999999999999999,
+      "decentralized_tries": 21,
+      "decentralized_messages": 9,
+      "decentralized_rounds": 2
+    },
+    {
+      "faulted_line": 4,
+      "n_deenergized_buses": 21,
+      "centralized_restored_mw": 1.6599999999999997,
+      "centralized_tries": 32,
+      "decentralized_restored_mw": 1.6599999999999997,
+      "decentralized_tries": 21,
+      "decentralized_messages": 9,
+      "decentralized_rounds": 2
+    },
+    {
+      "faulted_line": 5,
+      "n_deenergized_buses": 12,
+      "centralized_restored_mw": 3.715000000000001,
+      "centralized_tries": 32,
+      "decentralized_restored_mw": 3.715000000000001,
+      "decentralized_tries": 11,
+      "decentralized_messages": 3,
+      "decentralized_rounds": 1
+    },
+    {
+      "faulted_line": 6,
+      "n_deenergized_buses": 11,
+      "centralized_restored_mw": 3.715000000000001,
+      "centralized_tries": 32,
+      "decentralized_restored_mw": 3.715000000000001,
+      "decentralized_tries": 11,
+      "decentralized_messages": 2,
+      "decentralized_rounds": 1
+    },
+    {
+      "faulted_line": 7,
+      "n_deenergized_buses": 10,
+      "centralized_restored_mw": 3.715000000000001,
+      "centralized_tries": 32,
+      "decentralized_restored_mw": 3.715000000000001,
+      "decentralized_tries": 7,
+      "decentralized_messages": 1,
+      "decentralized_rounds": 1
+    },
+    {
+      "faulted_line": 8,
+      "n_deenergized_buses": 9,
+      "centralized_restored_mw": 3.715000000000001,
+      "centralized_tries": 32,
+      "decentralized_restored_mw": 3.715000000000001,
+      "decentralized_tries": 7,
+      "decentralized_messages": 1,
+      "decentralized_rounds": 1
+    },
+    {
+      "faulted_line": 9,
+      "n_deenergized_buses": 8,
+      "centralized_restored_mw": 3.715000000000001,
+      "centralized_tries": 32,
+      "decentralized_restored_mw": 3.715000000000001,
+      "decentralized_tries": 7,
+      "decentralized_messages": 1,
+      "decentralized_rounds": 1
+    },
+    {
+      "faulted_line": 10,
+      "n_deenergized_buses": 7,
+      "centralized_restored_mw": 3.715000000000001,
+      "centralized_tries": 32,
+      "decentralized_restored_mw": 3.715000000000001,
+      "decentralized_tries": 7,
+      "decentralized_messages": 1,
+      "decentralized_rounds": 1
+    },
+    {
+      "faulted_line": 11,
+      "n_deenergized_buses": 6,
+      "centralized_restored_mw": 3.715000000000001,
+      "centralized_tries": 32,
+      "decentralized_restored_mw": 3.715000000000001,
+      "decentralized_tries": 7,
+      "decentralized_messages": 1,
+      "decentralized_rounds": 1
+    },
+    {
+      "faulted_line": 12,
+      "n_deenergized_buses": 5,
+      "centralized_restored_mw": 3.715000000000001,
+      "centralized_tries": 32,
+      "decentralized_restored_mw": 3.715000000000001,
+      "decentralized_tries": 7,
+      "decentralized_messages": 1,
+      "decentralized_rounds": 1
+    },
+    {
+      "faulted_line": 13,
+      "n_deenergized_buses": 4,
+      "centralized_restored_mw": 3.715000000000001,
+      "centralized_tries": 32,
+      "decentralized_restored_mw": 3.715000000000001,
+      "decentralized_tries": 7,
+      "decentralized_messages": 1,
+      "decentralized_rounds": 1
+    },
+    {
+      "faulted_line": 14,
+      "n_deenergized_buses": 3,
+      "centralized_restored_mw": 3.715000000000001,
+      "centralized_tries": 32,
+      "decentralized_restored_mw": 3.715000000000001,
+      "decentralized_tries": 7,
+      "decentralized_messages": 1,
+      "decentralized_rounds": 1
+    },
+    {
+      "faulted_line": 15,
+      "n_deenergized_buses": 2,
+      "centralized_restored_mw": 3.715000000000001,
+      "centralized_tries": 32,
+      "decentralized_restored_mw": 3.715000000000001,
+      "decentralized_tries": 7,
+      "decentralized_messages": 1,
+      "decentralized_rounds": 1
+    },
+    {
+      "faulted_line": 16,
+      "n_deenergized_buses": 1,
+      "centralized_restored_mw": 3.715000000000001,
+      "centralized_tries": 32,
+      "decentralized_restored_mw": 3.715000000000001,
+      "decentralized_tries": 7,
+      "decentralized_messages": 1,
+      "decentralized_rounds": 1
+    },
+    {
+      "faulted_line": 17,
+      "n_deenergized_buses": 4,
+      "centralized_restored_mw": 3.715000000000001,
+      "centralized_tries": 32,
+      "decentralized_restored_mw": 3.715000000000001,
+      "decentralized_tries": 4,
+      "decentralized_messages": 1,
+      "decentralized_rounds": 1
+    },
+    {
+      "faulted_line": 18,
+      "n_deenergized_buses": 3,
+      "centralized_restored_mw": 3.715000000000001,
+      "centralized_tries": 32,
+      "decentralized_restored_mw": 3.715000000000001,
+      "decentralized_tries": 4,
+      "decentralized_messages": 1,
+      "decentralized_rounds": 1
+    },
+    {
+      "faulted_line": 19,
+      "n_deenergized_buses": 2,
+      "centralized_restored_mw": 3.715000000000001,
+      "centralized_tries": 32,
+      "decentralized_restored_mw": 3.715000000000001,
+      "decentralized_tries": 4,
+      "decentralized_messages": 1,
+      "decentralized_rounds": 1
+    },
+    {
+      "faulted_line": 20,
+      "n_deenergized_buses": 1,
+      "centralized_restored_mw": 3.715000000000001,
+      "centralized_tries": 32,
+      "decentralized_restored_mw": 3.715000000000001,
+      "decentralized_tries": 4,
+      "decentralized_messages": 1,
+      "decentralized_rounds": 1
+    },
+    {
+      "faulted_line": 21,
+      "n_deenergized_buses": 3,
+      "centralized_restored_mw": 2.785000000000001,
+      "centralized_tries": 32,
+      "decentralized_restored_mw": 2.785000000000001,
+      "decentralized_tries": 7,
+      "decentralized_messages": 6,
+      "decentralized_rounds": 2
+    },
+    {
+      "faulted_line": 22,
+      "n_deenergized_buses": 2,
+      "centralized_restored_mw": 2.8750000000000013,
+      "centralized_tries": 32,
+      "decentralized_restored_mw": 2.8750000000000013,
+      "decentralized_tries": 7,
+      "decentralized_messages": 6,
+      "decentralized_rounds": 2
+    },
+    {
+      "faulted_line": 23,
+      "n_deenergized_buses": 1,
+      "centralized_restored_mw": 3.2950000000000013,
+      "centralized_tries": 32,
+      "decentralized_restored_mw": 3.2950000000000013,
+      "decentralized_tries": 7,
+      "decentralized_messages": 6,
+      "decentralized_rounds": 2
+    },
+    {
+      "faulted_line": 24,
+      "n_deenergized_buses": 8,
+      "centralized_restored_mw": 3.715000000000001,
+      "centralized_tries": 32,
+      "decentralized_restored_mw": 3.715000000000001,
+      "decentralized_tries": 4,
+      "decentralized_messages": 1,
+      "decentralized_rounds": 1
+    },
+    {
+      "faulted_line": 25,
+      "n_deenergized_buses": 7,
+      "centralized_restored_mw": 3.715000000000001,
+      "centralized_tries": 32,
+      "decentralized_restored_mw": 3.715000000000001,
+      "decentralized_tries": 4,
+      "decentralized_messages": 1,
+      "decentralized_rounds": 1
+    },
+    {
+      "faulted_line": 26,
+      "n_deenergized_buses": 6,
+      "centralized_restored_mw": 3.715000000000001,
+      "centralized_tries": 32,
+      "decentralized_restored_mw": 3.715000000000001,
+      "decentralized_tries": 4,
+      "decentralized_messages": 1,
+      "decentralized_rounds": 1
+    },
+    {
+      "faulted_line": 27,
+      "n_deenergized_buses": 5,
+      "centralized_restored_mw": 3.715000000000001,
+      "centralized_tries": 32,
+      "decentralized_restored_mw": 3.715000000000001,
+      "decentralized_tries": 4,
+      "decentralized_messages": 1,
+      "decentralized_rounds": 1
+    },
+    {
+      "faulted_line": 28,
+      "n_deenergized_buses": 4,
+      "centralized_restored_mw": 3.095000000000001,
+      "centralized_tries": 32,
+      "decentralized_restored_mw": 3.095000000000001,
+      "decentralized_tries": 9,
+      "decentralized_messages": 6,
+      "decentralized_rounds": 2
+    },
+    {
+      "faulted_line": 29,
+      "n_deenergized_buses": 3,
+      "centralized_restored_mw": 3.2950000000000013,
+      "centralized_tries": 32,
+      "decentralized_restored_mw": 3.2950000000000013,
+      "decentralized_tries": 9,
+      "decentralized_messages": 6,
+      "decentralized_rounds": 2
+    },
+    {
+      "faulted_line": 30,
+      "n_deenergized_buses": 2,
+      "centralized_restored_mw": 3.445000000000001,
+      "centralized_tries": 32,
+      "decentralized_restored_mw": 3.445000000000001,
+      "decentralized_tries": 9,
+      "decentralized_messages": 6,
+      "decentralized_rounds": 2
+    },
+    {
+      "faulted_line": 31,
+      "n_deenergized_buses": 1,
+      "centralized_restored_mw": 3.715000000000001,
+      "centralized_tries": 32,
+      "decentralized_restored_mw": 3.715000000000001,
+      "decentralized_tries": 4,
+      "decentralized_messages": 1,
+      "decentralized_rounds": 1
+    }
+  ],
+  "summary": {
+    "centralized_mean_restored_pct": 85.80501345895023,
+    "decentralized_mean_restored_pct": 85.80501345895023,
+    "centralized_avg_tries": 32.0,
+    "decentralized_avg_tries": 8.78125,
+    "decentralized_avg_messages": 3.34375
+  }
+}

@@ -1,0 +1,16 @@
+# __pycache__/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Output artifacts
+*.log
+.DS_Store
+Thumbs.db
