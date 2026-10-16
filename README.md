@@ -174,12 +174,9 @@ If you use this codebase, models, or datasets in your research, please cite our 
   title={Sustainable Smart Grid Resilience and Renewable Integration Using Multi-Agent Reinforcement Learning},
   author={Sajjadi Mohammadabadi, Seyed Mahmoud and Sajjadi, Sayed Mohammad},
   journal={Sustainability},
-  volume={18},
-  number={10},
-  pages={4572},
   year={2026},
   publisher={MDPI},
-  doi={10.3390/su18104572}
+  note={Manuscript ID: sustainability-4572305, in press}
 }
 ```
 
