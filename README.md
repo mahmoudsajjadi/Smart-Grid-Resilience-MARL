@@ -2,12 +2,15 @@
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Journal: MDPI Sustainability](https://img.shields.io/badge/Journal-MDPI%20Sustainability-green.svg)](https://www.mdpi.com/journal/sustainability)
+[![Journal: MDPI Sustainability](https://img.shields.io/badge/Journal-MDPI%20Sustainability%2018(20):10574-green.svg)](https://www.mdpi.com/2071-1050/18/20/10574)
+[![DOI: 10.3390/su182010574](https://img.shields.io/badge/DOI-10.3390%2Fsu182010574-blue.svg)](https://doi.org/10.3390/su182010574)
+[![Interactive Page](https://img.shields.io/badge/Interactive-Landing%20Page%20%26%20BibTeX-007acc.svg)](https://mahmoudsajjadi.github.io/papers/sustainable-smart-grid-resilience-marl.html)
 
 Official code and data repository for the paper:  
-**"Sustainable Smart Grid Resilience and Renewable Integration Using Multi-Agent Reinforcement Learning"**  
+**["Sustainable Smart Grid Resilience and Renewable Integration Using Multi-Agent Reinforcement Learning"](https://www.mdpi.com/2071-1050/18/20/10574)**  
 *Seyed Mahmoud Sajjadi Mohammadabadi and Sayed Mohammad Sajjadi*  
-Published in **MDPI Sustainability** (Special Issue: *Advances in Renewable Energy and Power Generation Technology*), 2026.
+Published in **MDPI Sustainability**, Vol. 18, Issue 20, 10574 (Special Issue: *Advances in Renewable Energy and Power Generation Technology*), 2026.  
+📄 **[Read Official Open-Access Article](https://www.mdpi.com/2071-1050/18/20/10574)** • 📥 **[Download Full PDF](https://www.mdpi.com/2071-1050/18/20/10574/pdf)** • 🔗 **[DOI: 10.3390/su182010574](https://doi.org/10.3390/su182010574)** • 🎓 **[Google Scholar](https://scholar.google.com/citations?user=tkhCR5IAAAAJ&hl=en)**
 
 ---
 
@@ -171,12 +174,16 @@ If you use this codebase, models, or datasets in your research, please cite our 
 
 ```bibtex
 @article{sajjadi2026sustainable,
-  title={Sustainable Smart Grid Resilience and Renewable Integration Using Multi-Agent Reinforcement Learning},
-  author={Sajjadi Mohammadabadi, Seyed Mahmoud and Sajjadi, Sayed Mohammad},
-  journal={Sustainability},
-  year={2026},
-  publisher={MDPI},
-  note={Manuscript ID: sustainability-4572305, in press}
+  title     = {Sustainable Smart Grid Resilience and Renewable Integration Using Multi-Agent Reinforcement Learning},
+  author    = {Sajjadi Mohammadabadi, Seyed Mahmoud and Sajjadi, Sayed Mohammad},
+  journal   = {Sustainability},
+  volume    = {18},
+  number    = {20},
+  pages     = {10574},
+  year      = {2026},
+  publisher = {MDPI},
+  doi       = {10.3390/su182010574},
+  url       = {https://www.mdpi.com/2071-1050/18/20/10574}
 }
 ```
 
