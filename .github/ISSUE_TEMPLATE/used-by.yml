@@ -1,0 +1,14 @@
+name: Used by / extension
+description: Tell us how you used or extended this work so it can be listed in the README
+title: "Used by: "
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Link to your paper, preprint or repository
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What did you use or extend?
