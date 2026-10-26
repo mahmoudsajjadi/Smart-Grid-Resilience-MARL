@@ -1,0 +1,17 @@
+name: Baseline result submission
+description: Submit results of another method on this code or benchmark
+title: "Baseline: "
+body:
+  - type: input
+    id: method
+    attributes:
+      label: Method name and reference
+    validations:
+      required: true
+  - type: textarea
+    id: results
+    attributes:
+      label: Results and how to reproduce them
+      description: Experiment, metric, numbers, link to code.
+    validations:
+      required: true
