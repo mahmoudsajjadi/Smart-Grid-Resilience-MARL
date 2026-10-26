@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software or benchmark, please cite the paper below."
+title: "Smart-Grid-Resilience-MARL"
+type: software
+authors:
+  - family-names: "Sajjadi Mohammadabadi"
+    given-names: "Seyed Mahmoud"
+    affiliation: "University of Nevada, Reno"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: "Sajjadi"
+    given-names: "Sayed Mohammad"
+repository-code: "https://github.com/mahmoudsajjadi/Smart-Grid-Resilience-MARL"
+license: MIT
+keywords: [multi-agent reinforcement learning, smart grid, resilience, Volt-VAr, feeder reconfiguration, IEEE 33-bus, pandapower]
+preferred-citation:
+  type: article
+  title: "Sustainable Smart Grid Resilience and Renewable Integration Using Multi-Agent Reinforcement Learning"
+  journal: "Sustainability"
+  volume: 18
+  issue: 20
+  start: 10574
+  year: 2026
+  doi: "10.3390/su182010574"
+  authors:
+    - family-names: "Sajjadi Mohammadabadi"
+      given-names: "Seyed Mahmoud"
+    - family-names: "Sajjadi"
+      given-names: "Sayed Mohammad"
