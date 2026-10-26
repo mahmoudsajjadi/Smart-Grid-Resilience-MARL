@@ -1,0 +1,28 @@
+{
+  "title": "Smart-Grid-Resilience-MARL: code and benchmarks for Sustainable Smart Grid Resilience and Renewable Integration Using Multi-Agent Reinforcement Learning",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Sajjadi Mohammadabadi, Seyed Mahmoud",
+      "affiliation": "University of Nevada, Reno"
+    },
+    {
+      "name": "Sajjadi, Sayed Mohammad"
+    }
+  ],
+  "description": "Reproducible code for decentralized MARL feeder reconfiguration and Volt-VAr control on the IEEE 33-bus and 179-bus Oberrhein networks.",
+  "keywords": [
+    "reinforcement learning",
+    "smart grid",
+    "pandapower",
+    "Volt-VAr"
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.3390/su182010574",
+      "scheme": "doi"
+    }
+  ],
+  "license": "MIT"
+}
