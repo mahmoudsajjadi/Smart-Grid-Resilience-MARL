@@ -1,0 +1,6 @@
+# Versions that ran successfully on Colab (Python 3.13.16)
+numpy==2.1.3
+scipy==1.16.3
+matplotlib==3.10.0
+networkx==3.7
+pandapower==3.5.6
