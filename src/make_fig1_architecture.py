@@ -1,3 +1,5 @@
+import os as _o, os.path as _p
+_o.chdir(_p.dirname(_p.dirname(_p.abspath(__file__))))  # run from the repo root: portable paths
 import numpy as np
 import matplotlib
 matplotlib.use("Agg")
@@ -5,7 +7,7 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch, FancyArrowPatch, Circle
 
 plt.rcParams.update({"font.size": 10, "figure.dpi": 150})
-FIGDIR = "/home/claude/smartgrid_paper/figures"
+FIGDIR = "./figures"
 
 
 def box(ax, x, y, w, h, text, color="#cfe2f3", fontsize=9, edgecolor="#333333"):
