@@ -16,6 +16,8 @@ compare two restoration strategies:
 Feasibility is checked with a full AC power flow (pandapower) requiring
 radiality, voltage in [0.90, 1.10] p.u., and line loading <= 100%.
 """
+import os as _o, os.path as _p
+_o.chdir(_p.dirname(_p.dirname(_p.abspath(__file__))))  # run from the repo root: portable paths
 import numpy as np
 import json
 import itertools
@@ -131,7 +133,7 @@ print(f"Decentralized: mean restored = {np.mean(dec_pct):.2f}%  "
       f"(full restoration in {sum(1 for p in dec_pct if p>99.9)}/{n_faults} cases), "
       f"avg search evaluations = {dec_tries_avg:.1f}, avg messages = {dec_msgs_avg:.1f}")
 
-with open("/home/claude/smartgrid_paper/data/exp1_restoration.json", "w") as f:
+with open("./data/exp1_restoration.json", "w") as f:
     json.dump({
         "total_load_mw": TOTAL_LOAD, "n_faults": n_faults, "results": results,
         "summary": {
