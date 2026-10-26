@@ -9,6 +9,8 @@ paper's thesis: performance rises over training episodes toward the
 oracle optimum established in Experiment 1, without ever being told the
 power-flow equations directly.
 """
+import os as _o, os.path as _p
+_o.chdir(_p.dirname(_p.dirname(_p.abspath(__file__))))  # run from the repo root: portable paths
 import numpy as np
 import json
 import warnings
@@ -112,7 +114,7 @@ if __name__ == "__main__":
     print(f"Final-100-episode random-policy avg reward: {np.mean(random_mean_curve[-100:]):.4f} MW")
     print(f"Final-100-episode learned-policy avg reward: {np.mean(mean_curve[-100:]):.4f} MW")
 
-    with open("/home/claude/smartgrid_paper/data/exp2_qlearning.json", "w") as f:
+    with open("./data/exp2_qlearning.json", "w") as f:
         json.dump({
             "n_episodes": N_EPISODES, "n_seeds": N_SEEDS, "window": window,
             "oracle_mean_mw": float(oracle_mean),
