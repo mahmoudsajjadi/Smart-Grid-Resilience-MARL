@@ -3,6 +3,7 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mahmoudsajjadi/Smart-Grid-Resilience-MARL/blob/main/quickstart.ipynb)
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.23668404.svg)](https://doi.org/10.5281/zenodo.23668404)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Journal: MDPI Sustainability](https://img.shields.io/badge/Journal-MDPI%20Sustainability%2018(20):10574-green.svg)](https://www.mdpi.com/2071-1050/18/20/10574)
 [![DOI: 10.3390/su182010574](https://img.shields.io/badge/DOI-10.3390%2Fsu182010574-blue.svg)](https://doi.org/10.3390/su182010574)
@@ -190,6 +191,12 @@ If you use this codebase, models, or datasets in your research, please cite our 
 ```
 
 ---
+
+## 🤝 Using this code?
+
+- Found a bug, or want another baseline compared? [Open an issue](https://github.com/mahmoudsajjadi/Smart-Grid-Resilience-MARL/issues/new/choose).
+- Built something on top of this work? Open a "Used by" issue with a link and it will be listed here.
+- Please cite the paper (BibTeX above) or use the **Cite this repository** button.
 
 ## 📬 Contact & Inquiries
 - **Seyed Mahmoud Sajjadi Mohammadabadi** — University of Nevada, Reno — `mahmoud.sajjadi@unr.edu`
