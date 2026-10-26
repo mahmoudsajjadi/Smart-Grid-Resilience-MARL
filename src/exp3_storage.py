@@ -14,6 +14,8 @@ is the only remaining resource able to sustain load. We compare:
       a battery with surplus margin to a neighbor serving a critical
       load that would otherwise be shed.
 """
+import os as _o, os.path as _p
+_o.chdir(_p.dirname(_p.dirname(_p.abspath(__file__))))  # run from the repo root: portable paths
 import numpy as np
 import json
 import warnings
@@ -159,7 +161,7 @@ print(f"Coordinated:   critical-load hours fully served = {coord_crit*100:.1f}%,
       f"critical energy adequacy = {coord_adeq:.1f}%, "
       f"critical energy delivered = {coord_energy*1000:.1f} kWh")
 
-with open("/home/claude/smartgrid_paper/data/exp3_storage.json", "w") as f:
+with open("./data/exp3_storage.json", "w") as f:
     json.dump({
         "faulted_line": faulted_line, "islanded_buses": islanded_buses,
         "critical_buses": critical_buses, "battery_buses": battery_buses,
