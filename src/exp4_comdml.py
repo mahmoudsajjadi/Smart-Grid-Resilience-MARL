@@ -18,6 +18,8 @@ compare:
       work and slower agents less, equalizing wall-clock round time
       while preserving the same *total* work done per round.
 """
+import os as _o, os.path as _p
+_o.chdir(_p.dirname(_p.dirname(_p.abspath(__file__))))  # run from the repo root: portable paths
 import numpy as np
 import json
 import warnings
@@ -129,7 +131,7 @@ speedup = np.mean(naive_ttt_valid) / np.mean(balanced_ttt_valid)
 print(f"Speedup: {speedup:.2f}x")
 
 # Use seed-0 traces as representative curves for plotting
-with open("/home/claude/smartgrid_paper/data/exp4_comdml.json", "w") as f:
+with open("./data/exp4_comdml.json", "w") as f:
     json.dump({
         "agent_latency": AGENT_LATENCY.tolist(),
         "target_frac": TARGET_AVG_REWARD_FRAC,
