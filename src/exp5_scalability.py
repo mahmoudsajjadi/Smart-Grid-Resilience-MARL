@@ -13,6 +13,8 @@ candidate actions. This isolates the computational-scalability
 advantage of decentralization from the restoration-quality question
 already addressed in Experiment 1.
 """
+import os as _o, os.path as _p
+_o.chdir(_p.dirname(_p.dirname(_p.abspath(__file__))))  # run from the repo root: portable paths
 import numpy as np
 import json
 import time
@@ -81,6 +83,6 @@ for name, net, t_pf, n_ties in [("ieee33", net33, t33, n_ties_33),
           f"decentralized ({n_local} candidates)={dec_time*1000:.1f} ms, "
           f"speedup={cen_time/dec_time:.1f}x")
 
-with open("/home/claude/smartgrid_paper/data/exp5_scalability.json", "w") as f:
+with open("./data/exp5_scalability.json", "w") as f:
     json.dump(results, f, indent=2)
 print("Saved exp5_scalability.json")
