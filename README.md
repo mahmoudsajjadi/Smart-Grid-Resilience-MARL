@@ -1,5 +1,7 @@
 # Sustainable Smart Grid Resilience and Renewable Integration Using Multi-Agent Reinforcement Learning
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mahmoudsajjadi/Smart-Grid-Resilience-MARL/blob/main/quickstart.ipynb)
+
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Journal: MDPI Sustainability](https://img.shields.io/badge/Journal-MDPI%20Sustainability%2018(20):10574-green.svg)](https://www.mdpi.com/2071-1050/18/20/10574)
