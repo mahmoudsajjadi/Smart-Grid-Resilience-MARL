@@ -1,3 +1,5 @@
+import os as _o, os.path as _p
+_o.chdir(_p.dirname(_p.dirname(_p.abspath(__file__))))  # run from the repo root: portable paths
 import numpy as np
 import matplotlib
 matplotlib.use("Agg")
@@ -6,11 +8,11 @@ import networkx as nx
 import warnings
 warnings.filterwarnings('ignore')
 import sys
-sys.path.insert(0, "/home/claude/smartgrid_paper/code")
+sys.path.insert(0, "./code")
 from grid_env import build_base_net, TIE_LINES, ZONE_OF_BUS, N_ZONES
 
 plt.rcParams.update({"font.size": 10, "figure.dpi": 150})
-FIGDIR = "/home/claude/smartgrid_paper/figures"
+FIGDIR = "./figures"
 
 net = build_base_net()
 
